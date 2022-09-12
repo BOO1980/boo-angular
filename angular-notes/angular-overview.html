@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/w3schools.css">
+    <title>AngularJS Overview</title>
+</head>
+
+<body class="text-body">
+    <div class="w3-main w3-light-grey">
+        <div class="w3-white">
+            <div id="main" class="w3-col m12">
+                <h1>AngularJS Overview</h1>
+                <ul>
+                    <li>AngularJS extends HTML with new attributes.</li>
+                    <li>AngularJS is perfect for Single Page Applications (SPAs)</li>
+                </ul>
+                <h2>AngularJS is a JavaScript Framework</h2>
+                <ul>
+                    <li>AngularJS is a <strong>JavaScript Framework</strong> it can be added to an HTML page with a
+                        &lt;script&gt;
+                        <div class="w3-code">
+                            <span class="tagnamecolor" style="color:brown">
+                                <span class="tagcolor" style="color:mediumblue">&lt;</span>
+                                script
+                                <span class="attributecolor" style="color:red">src</span>
+                                <span class=" attributevaluecolor"
+                                    style="color:mediumblue">="https://ajax.googleapis.com/ajax/libs/angular.min.js</span>
+                                <span class="tagcolor" stlye="color:mediumblue">&gt;</span>
+                            </span>
+                            <span class="jscolor" style="color:black"></span>
+                            <span class="tagnamecolor" style="color:brown">
+                                <span class="tagcolor" style="color:mediumblue">&lt;</span>
+                                /script
+                                <span class="tagcolor" style="color:mediumblue">&gt;</span>
+                        </div>
+                    </li>
+                    <li>AngularJS extends HTML attributes with <strong>Directives</strong> and Binds data to HTML with
+                        <strong>Expressions</strong>.
+                    </li>
+                </ul>
+                <h2>AngularJS Extends HTML</h2>
+                <ul>
+                    <li>AngularJS extends HTML with <strong>ng-directives</strong>
+                        <ul>
+                            <li>The <strong>ng-app</strong> directive defines an AngularJS application. i.e the
+                                <strong>ng-app</strong> directive tells AngularJS that the element is the owner of the
+                                AngularJS
+                                <strong>application</strong>
+                            </li>
+                            <li>The <strong>ng-model</strong> directive binds the value of the HTML controls (input,
+                                select,textarea) to application data.</li>
+                            <li>The <strong>ng-bind</strong> directive binds application data to the HTML view.</li>
+                        </ul>
+                    </li>
+                    <li>AngularJS starts automatically when the webpage has loaded</li>
+                </ul>
+                <h1>Overview Examples</h1>
+                <div class="w3-example">
+                    <h3>AngularJS Example</h3>
+                    <div class="w3-code notranslate htmlHigh">
+                        <span class="tagnamecolor" style="color:brown"><span class="tagcolor"
+                                style="color:mediumblue">&lt;</span>!DOCTYPE<span class="attributecolor"
+                                style="color:red">
+                                html</span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                        <span class="tagnamecolor" style="color:brown"><span class="tagcolor"
+                                style="color:mediumblue">&lt;</span>html<span class="tagcolor"
+                                style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor"
+                            style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>script<span
+                                class="attributecolor" style="color:red">
+                                src<span class="attributevaluecolor"
+                                    style="color:mediumblue">="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"</span></span><span
+                                class="tagcolor" style="color:mediumblue">&gt;</span></span><span class="jscolor"
+                            style="color:black"></span><span class="tagnamecolor" style="color:brown"><span
+                                class="tagcolor" style="color:mediumblue">&lt;</span>/script<span class="tagcolor"
+                                style="color:mediumblue">&gt;</span></span><br>
+                        <span class="tagnamecolor" style="color:brown"><span class="tagcolor"
+                                style="color:mediumblue">&lt;</span>body<span class="tagcolor"
+                                style="color:mediumblue">&gt;</span></span><br><br><span class="tagnamecolor"
+                            style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>div<span
+                                class="attributecolor" style="color:red">
+                                ng-app<span class="attributevaluecolor" style="color:mediumblue">=""</span></span><span
+                                class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                        &nbsp; <span class="tagnamecolor" style="color:brown"><span class="tagcolor"
+                                style="color:mediumblue">&lt;</span>p<span class="tagcolor"
+                                style="color:mediumblue">&gt;</span></span>Name: <span class="tagnamecolor"
+                            style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>input<span
+                                class="attributecolor" style="color:red"> type<span class="attributevaluecolor"
+                                    style="color:mediumblue">="text"</span>
+                                ng-model<span class="attributevaluecolor"
+                                    style="color:mediumblue">="name"</span></span><span class="tagcolor"
+                                style="color:mediumblue">&gt;</span></span><span class="tagnamecolor"
+                            style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/p<span
+                                class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                        &nbsp; <span class="tagnamecolor" style="color:brown"><span class="tagcolor"
+                                style="color:mediumblue">&lt;</span>p<span class="attributecolor" style="color:red">
+                                ng-bind<span class="attributevaluecolor"
+                                    style="color:mediumblue">="name"</span></span><span class="tagcolor"
+                                style="color:mediumblue">&gt;</span></span><span class="tagnamecolor"
+                            style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/p<span
+                                class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                        <span class="tagnamecolor" style="color:brown"><span class="tagcolor"
+                                style="color:mediumblue">&lt;</span>/div<span class="tagcolor"
+                                style="color:mediumblue">&gt;</span></span><br><br>
+                        <span class="tagnamecolor" style="color:brown"><span class="tagcolor"
+                                style="color:mediumblue">&lt;</span>/body<span class="tagcolor"
+                                style="color:mediumblue">&gt;</span></span><br>
+                        <span class="tagnamecolor" style="color:brown"><span class="tagcolor"
+                                style="color:mediumblue">&lt;</span>/html<span class="tagcolor"
+                                style="color:mediumblue">&gt;</span></span><br>
+                    </div>
+                    <a class="w3-btn w3-margin-bottom" href="../angular-work/w3Schools-angular/0-hello/index.html"
+                        target="_blank">[00] Hello Example
+                        »</a>
+                </div>
+                <h2>Example Explained</h2>
+                <ul>
+                    <li>AngularJS starts automatically when the web page has loaded</li>
+                    <li>the <strong>ng-app</strong> directive tells AngularJS that the &lt;div&gt; element is the
+                        "owner" of an AngularJS <strong>application.</strong></li>
+                    <li>The <strong>ng-model</strong> directive binds the value of the input field to the application
+                        variable <strong>name</strong></li>
+                    <li>the <strong>ng-bind</strong> directive binds the content of the &lt;p&gt; element to the
+                        application variable <strong>name.</strong></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+html {
+  box-sizing: border-box; /*2*/
+  display: block; /*2*/
+  -webkit-text-size-adjust: 100%; /*4*/
+  overflow-x: hidden; /*27*/
+  font-family: Verdana, sans-serif; /*27*/
+  font-size: 15px; /*27*/
+  line-height: 1.5; /*27*/
+}
+
+.w3-main {
+  transition: margin-left 0s;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+#main {
+  padding: 16px 32px 32px 32px;
+  border-right: 1px solid #f1f1f1;
+  transition: margin-left 0.4s;
+}
+
+@media (min-width: 601px) {
+  .w3-col.m12 {
+    width: 99.99999%;
+  }
+}
+
+.w3-light-grey {
+  color: #000 !important;
+  background-color: #f1f1f1 !important;
+}
+
+.w3-white,
+.w3-hover-white:hover {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+  display: block;
+}
+
+h2 {
+  display: block;
+  font-size: 32px;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+h1 {
+  font-size: 42px;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+  display: block;
+}
+
+.w3-example {
+  padding: 8px 20px;
+  margin: 24px -20px;
+  box-shadow: none !important;
+  background-color: #e7e9eb;
+  border-radius: 5px;
+}
+
+.w3-code {
+  font-size: 15px;
+  border-left: 4px solid #04aa6d;
+  margin-top: 16px !important;
+  margin-bottom: 16px !important;
+  width: auto;
+  background-color: #fff;
+  color: #000;
+  padding: 8px 12px;
+  word-wrap: break-word;
+  font-family: Consolas, Menlo, "courier new", monospace;
+}
+.w3-margin-bottom {
+  margin-bottom: 16px !important;
+}
+.w3-btn:hover,
+.w3-btn:active,
+.w3-example a:focus,
+.nextprev a:focus {
+  box-shadow: none;
+  background-color: #059862 !important;
+}
+
+.w3-btn,
+.w3-btn:link,
+.w3-btn:visited {
+  color: #ffffff;
+  background-color: #4caf50;
+}
+
+.w3-example .w3-btn,
+.w3-example .ws-btn {
+  background-color: #04aa6d !important;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 6px 18px;
+}
